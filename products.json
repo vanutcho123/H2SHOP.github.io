@@ -1,0 +1,150 @@
+{
+    "productsMale": [{
+            "id": "1",
+            "classify": "ĐỒNG HỒ NAM",
+            "name": "ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA",
+            "pricePresent": 20.217000,
+            "priceSale": 18.195300,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONAM/1.jpg"
+        },
+        {
+            "id": "2",
+            "classify": "ĐỒNG HỒ NAM",
+            "name": "ĐỒNG HỒ CITIZEN AU1080-20A NAM ECO-DRIVE DÂY VẢI",
+            "pricePresent": 5.600000,
+            "priceSale": 5.204000,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONAM/2.jpg"
+        },
+        {
+            "id": "3",
+            "classify": "ĐỒNG HỒ NAM",
+            "name": "ĐỒNG HỒ TISSOT T063.907.11.058.00 NAM TỰ ĐỘNG DÂY INOX",
+            "pricePresent": 21.940000,
+            "priceSale": 18.195300,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONAM/3.jpg"
+        },
+        {
+            "id": "4",
+            "classify": "ĐỒNG HỒ NAM",
+            "name": "ĐỒNG HỒ SEIKO SGEG99P1 NAM PIN DÂY DA",
+            "pricePresent": 3.684000,
+            "priceSale": 1.195300,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONAM/4.jpg"
+        },
+        {
+            "id": "5",
+            "classify": "ĐỒNG HỒ NAM",
+            "name": "ĐỒNG HỒ ORIENT FSTAA002W0 NAM PIN DÂY DA",
+            "pricePresent": 3.042000,
+            "priceSale": 2.737000,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONAM/5.jpg"
+        },
+        {
+            "id": "6",
+            "classify": "ĐỒNG HỒ NAM",
+            "name": "ĐỒNG HỒ OLYM PIANUS OP99141-71AGSK TRẮNG NAM TỰ ĐỘNG",
+            "pricePresent": 7.680000,
+            "priceSale": 6.912000,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONAM/6.jpg"
+        },
+        {
+            "id": "7",
+            "classify": "ĐỒNG HỒ NAM",
+            "name": "ĐỒNG HỒ CASIO GA-110GB-1ADR NAM PIN DÂY NHỰA",
+            "pricePresent": 20.217000,
+            "priceSale": 18.195300,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONAM/7.jpg"
+        },
+        {
+            "id": "8",
+            "classify": "ĐỒNG HỒ NAM",
+            "name": "ĐỒNG HỒ CASIO MTP-1374L-1AVDF NAM PIN DÂY DA",
+            "pricePresent": 1.863000,
+            "priceSale": 1.677000,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONAM/8.jpg"
+        }
+    ],
+
+    "productsFeMale": [{
+
+            "id": "1",
+            "classify": "ĐỒNG HỒ NỮ",
+            "name": "ĐỒNG HỒ TISSOT T41.1.183.34 NỮ TỰ ĐỘNG DÂY INOX",
+            "pricePresent": 20.217000,
+            "priceSale": 18.195300,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONU/1.jpg"
+        },
+        {
+            "id": "2",
+            "classify": "ĐỒNG HỒ NỮ",
+            "name": "ĐỒNG HỒ CITIZEN EX1410-88A NỮ ECO-DRIVE DÂY INOX",
+            "pricePresent": 5.600000,
+            "priceSale": 5.040000,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONU/2.jpg"
+        },
+        {
+            "id": "3",
+            "classify": "ĐỒNG HỒ NỮ",
+            "name": "ĐỒNG HỒ OGIVAL OG385-032LW-T NỮ PIN DÂY INOX",
+            "pricePresent": 21.940000,
+            "priceSale": 18.195300,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONU/3.jpg"
+        },
+        {
+            "id": "4",
+            "classify": "ĐỒNG HỒ NỮ",
+            "name": "ĐỒNG HỒ CANDINO C4433/3 NỮ PIN DÂY INOX",
+            "pricePresent": 3.684000,
+            "priceSale": 1.195300,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONU/4.jpg"
+        },
+        {
+            "id": "5",
+            "classify": "ĐỒNG HỒ NỮ",
+            "name": "ĐỒNG HỒ SKAGEN 885SSLB NỮ PIN DÂY DA",
+            "pricePresent": 3.042000,
+            "priceSale": 2.737000,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONU/5.jpg"
+        },
+        {
+            "id": "6",
+            "classify": "ĐỒNG HỒ NỮ",
+            "name": "ĐỒNG HỒ DANIEL WELLINGTON DW00500001 NỮ PIN DÂY INOX",
+            "pricePresent": 7.680000,
+            "priceSale": 6.912000,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONU/6.jpg"
+        },
+        {
+            "id": "7",
+            "classify": "ĐỒNG HỒ NỮ",
+            "name": "ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ PIN DÂY NHỰA",
+            "pricePresent": 20.217000,
+            "priceSale": 18.195300,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONU/7.jpg"
+        },
+        {
+            "id": "8",
+            "classify": "ĐỒNG HỒ NỮ",
+            "name": "ĐỒNG HỒ CASIO LA670WL-1BDF NỮ PIN DÂY DA",
+            "pricePresent": 1.863000,
+            "priceSale": 1.677000,
+            "persent": "10%",
+            "image": "./assets/image/Product/DONGHONU/8.jpg"
+        }
+    ]
+}

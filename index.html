@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2SHOP</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./assets/image/Logoweb/logo.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="./assets/owlcarousel/asset/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/asset/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/owlcarousel/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Scroll-up-btn -->
+        <div class="scroll-up-btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+
+        <!-- Begin header -->
+        <header id="header" class="header">
+            <nav class="navbar">
+                <div class="grid wide">
+                    <!-- Logo -->
+                    <a href="#" class="navbar-logo">H2SHOP</a>
+                    <div class="navbar-menu">
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="#slider">GIỚI THIỆU</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#male">ĐỒNG HỒ NAM</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#female">ĐỒNG HỒ NỮ</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#couple">ĐỒNG HỒ ĐÔI</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#accessories" class="navbar-dash">PHỤ KIỆN</a>
+                                <div class="subnavbar-menu">
+                                    <ul class="submenu-list">
+                                        <li class="submenu-item">
+                                            <a href="#">Dây Harsch</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a href="#">Dây Da ZRC</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a href="#">Hộp đồng hồ</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a href="#">Dịch vụ in logo lên đồng hồ</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a href="#">Khắc lazel trên đồng hồ</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#information">TIN TỨC</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#footer">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-btn">
+                        <ul class="btn-list">
+                            <li class="btn-item">
+                                <a href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <div class="subnavbar-btn_search">
+                                    <input type="text" name="" id="">
+                                    <button> <i class="fas fa-search"></i></button>
+                                </div>
+                            </li>
+
+                            <li class="btn-item">
+                                <a href="./login.html">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+
+                            <li class="btn-item">
+                                <a href="#">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </a>
+                                <div class="cart-items">0</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End header -->
+
+        <!-- Begin Cart Overlay -->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>YOUR CART</h2>
+                <div class="cart-content">
+                    <!-- Cart-item -->
+                    <!-- <div class="cart-item">
+                        <img src="./assets/image/Product/DONGHONAM/1.jpg">
+                        <div>
+                            <h4>ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA</h4>
+                            <h5>2.000.000 đ</h5>  
+                            <i class="remove-item far fa-times-circle"></i>   
+                        </div>
+
+                        <div>
+                            <i class="fas fa-chevron-up"></i>
+                            <p class="item-amount">1</p>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="cart-footer">
+                    <h3>YOUR TOTAL:
+                        <span class="cart-total"></span> $
+                    </h3>
+                    <div>
+                        <button class="clear-cart">CLEAR CART</button>
+                        <button class="pay-product">
+                            <a href="#">TIẾN HÀNH THANH TOÁN</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Cart Overlay -->
+
+
+        <!-- Begin Main -->
+        <main class="main" id="main">
+            <!-- Section Slider -->
+            <section class="slider" id="slider">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="./assets/image/Slide/slide1.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="./assets/image/Slide/slide2.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="./assets/image/Slide/slide3.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Product Male -->
+            <section class="content" id="male">
+                <div class="grid wide">
+                    <div class="content-title">ĐỒNG HỒ NAM</div>
+                    <div class="row">
+                        <!-- <div class="col l-3 m-4 c-6">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONAM/1.jpg" class="product-img" alt="">
+                                </a>
+                                <div class="product-classify">PHỤ KIỆN</div>
+                                <div class="product-name">DỊCH VỤ KHẮC LAZE LOGO LÊN ĐỒNG HỒ CHẤT LƯỢNG CAO</div>
+                                <div class="product-price">
+                                    <div class="price-present">5,053,950 ₫</div>
+                                    <div class="price-sale">3,195,300 ₫</div>
+                                </div>
+                                <button class="product-bag-btn" data-id="1">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="content-persent">-10%</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Promotions -->
+            <section class="promotions">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-4 c-12" data-aos="fade-down" data-aos-delay="100">
+                            <div class="promotions-content">
+                                <i class="fas fa-truck"></i>
+                                <div class="promotions-info">
+                                    <div class="promotions-info__heading">Miễn Phí Giao Hàng</div>
+                                    <div class="promotions-info__description">Áp dụng trên tất cả các tỉnh thành</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col l-4 m-4 c-12" data-aos="fade-down" data-aos-delay="300">
+                            <div class="promotions-content">
+                                <i class="fas fa-gift"></i>
+                                <div class="promotions-info">
+                                    <div class="promotions-info__heading">Quà Tặng Đặc Biệt</div>
+                                    <div class="promotions-info__description">Bốc Thăm May Mắn Sản Phẩm Trên H2SHOP</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col l-4 m-4 c-12" data-aos="fade-down" data-aos-delay="500">
+                            <div class="promotions-content">
+                                <i class="fas fa-piggy-bank"></i>
+                                <div class="promotions-info">
+                                    <div class="promotions-info__heading">Tiết Kiệm Khi Mua Ở Mona</div>
+                                    <div class="promotions-info__description">Giảm 10% trên tất cả các sản phẩm</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Product FeMale -->
+            <section class="content" id="female">
+                <div class="grid wide">
+                    <div class="content-title">ĐỒNG HỒ NỮ</div>
+                    <div class="row">
+                        <div class="col l-3 m-4 c-6" data-aos="fade-right">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONU/1.jpg" alt="" class="product-img">
+                                </a>
+                                <div class="product-classify">ĐỒNG HỒ NỮ</div>
+                                <div class="product-name">ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ DÂY NHỰA</div>
+                                <div class="product-price">
+                                    <div class="price-present">5.432
+                                        </span>$</span>
+                                    </div>
+                                    <div class="price-sale">4.5332
+                                        </span>$</span>
+                                    </div>
+                                </div>
+                                <button class="product-bag-btn">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="product-persent">10%</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6" data-aos="fade-right">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONU/2.jpg" alt="" class="product-img">
+                                </a>
+                                <div class="product-classify">ĐỒNG HỒ NỮ</div>
+                                <div class="product-name">ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ DÂY NHỰA</div>
+                                <div class="product-price">
+                                    <div class="price-present">5.432
+                                        </span>$</span>
+                                    </div>
+                                    <div class="price-sale">4.5332
+                                        </span>$</span>
+                                    </div>
+                                </div>
+                                <button class="product-bag-btn">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="product-persent">10%</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6" data-aos="fade-right">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONU/3.jpg" alt="" class="product-img">
+                                </a>
+                                <div class="product-classify">ĐỒNG HỒ NỮ</div>
+                                <div class="product-name">ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ DÂY NHỰA</div>
+                                <div class="product-price">
+                                    <div class="price-present">5.432
+                                        </span>$</span>
+                                    </div>
+                                    <div class="price-sale">4.5332
+                                        </span>$</span>
+                                    </div>
+                                </div>
+                                <button class="product-bag-btn">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="product-persent">10%</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6" data-aos="fade-right">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONU/4.jpg" alt="" class="product-img">
+                                </a>
+                                <div class="product-classify">ĐỒNG HỒ NỮ</div>
+                                <div class="product-name">ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ DÂY NHỰA</div>
+                                <div class="product-price">
+                                    <div class="price-present">5.432
+                                        </span>$</span>
+                                    </div>
+                                    <div class="price-sale">4.5332
+                                        </span>$</span>
+                                    </div>
+                                </div>
+                                <button class="product-bag-btn">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="product-persent">10%</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6" data-aos="fade-right">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONU/5.jpg" alt="" class="product-img">
+                                </a>
+                                <div class="product-classify">ĐỒNG HỒ NỮ</div>
+                                <div class="product-name">ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ DÂY NHỰA</div>
+                                <div class="product-price">
+                                    <div class="price-present">5.432
+                                        </span>$</span>
+                                    </div>
+                                    <div class="price-sale">4.5332
+                                        </span>$</span>
+                                    </div>
+                                </div>
+                                <button class="product-bag-btn">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="product-persent">10%</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6" data-aos="fade-right">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONU/6.jpg" alt="" class="product-img">
+                                </a>
+                                <div class="product-classify">ĐỒNG HỒ NỮ</div>
+                                <div class="product-name">ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ DÂY NHỰA</div>
+                                <div class="product-price">
+                                    <div class="price-present">5.432
+                                        </span>$</span>
+                                    </div>
+                                    <div class="price-sale">4.5332
+                                        </span>$</span>
+                                    </div>
+                                </div>
+                                <button class="product-bag-btn">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="product-persent">10%</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6" data-aos="fade-right">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONU/7.jpg" alt="" class="product-img">
+                                </a>
+                                <div class="product-classify">ĐỒNG HỒ NỮ</div>
+                                <div class="product-name">ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ DÂY NHỰA</div>
+                                <div class="product-price">
+                                    <div class="price-present">5.432
+                                        </span>$</span>
+                                    </div>
+                                    <div class="price-sale">4.5332
+                                        </span>$</span>
+                                    </div>
+                                </div>
+                                <button class="product-bag-btn">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="product-persent">10%</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 c-6" data-aos="fade-right">
+                            <div class="content-product">
+                                <a href="#">
+                                    <img src="./assets/image/Product/DONGHONU/8.jpg" alt="" class="product-img">
+                                </a>
+                                <div class="product-classify">ĐỒNG HỒ NỮ</div>
+                                <div class="product-name">ĐỒNG HỒ CASIO GA-100DE-2ADR NỮ DÂY NHỰA</div>
+                                <div class="product-price">
+                                    <div class="price-present">5.432
+                                        </span>$</span>
+                                    </div>
+                                    <div class="price-sale">4.5332
+                                        </span>$</span>
+                                    </div>
+                                </div>
+                                <button class="product-bag-btn">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <div class="product-persent">10%</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section details -->
+            <section class="details">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12" data-aos="fade-left" data-aos-delay="100">
+                            <div class="details-content">
+                                <img src="https://moneyinc.com/wp-content/uploads/2019/01/omega_h-750x422.jpg" alt="">
+                                <div class="details-info">
+                                    <div class="details-info__heading">Romance in the air</div>
+                                    <div class="details-info__description">WEAR YOUR STYLE WITH VERVE & ATTITUDE</div>
+                                    <a href="#" class="details-info-btn">DETAILS</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col l-6 m-6 c-12" data-aos="fade-left" data-aos-delay="300">
+                            <div class="details-content">
+                                <img src="https://i2.wp.com/cdn1.hautetime.com/wp-content/uploads/2016/08/SE_PlanetOcean_21520465103001_fuite_night_large-1.jpg " alt="">
+                                <div class="details-info">
+                                    <div class="details-info__heading">Analog & Digital</div>
+                                    <div class="details-info__description">SMART WATCHES LATEST FASHION STATEMENT</div>
+                                    <a href="#  " class="details-info-btn">DETAILS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Product couples -->
+            <section class="content" id="couple">
+                <div class="grid wide">
+                    <div class="content-title">ĐỒNG HỒ ĐÔI</div>
+                    <div class=" owl-carousel general owl-theme">
+                        <div class="content-product">
+                            <img src="./assets/image/Product/DONGHODOI/1.jpg" class="product-img" alt="">
+                            <div class="product-classify">ĐỒNG HỒ ĐÔI</div>
+                            <div class="product-name">ĐỒNG HỒ ĐÔI ALEXANDRE CHRISTIE AC8C26-1LK TRẮNG – AC8C26-1MK TRẮNG PIN DÂY INOX</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                            <!-- <div class="product-persent">-10%</div> -->
+                            <div class="out-of-stock">HẾT HÀNG</div>
+
+                        </div>
+
+                        <div class="content-product">
+                            <img src="./assets/image/Product/DONGHODOI/2.jpg" class="product-img" alt="">
+                            <div class="product-classify">ĐỒNG HỒ ĐÔI</div>
+                            <div class="product-name">ĐỒNG HỒ ĐÔI SUNRISE SG – SL1085.1601 PIN DÂY INOX</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                            <div class="product-persent">-10%</div>
+                        </div>
+
+
+                        <div class="content-product">
+                            <img src="./assets/image/Product/DONGHODOI/3.jpg" class="product-img" alt="">
+                            <div class="product-classify">ĐỒNG HỒ ĐÔI</div>
+                            <div class="product-name">ĐỒNG HỒ ĐÔI OLYMPIA STAR OPA58012-07MSK TRẮNG – OPA58012-07LSK TRẮNG PIN DÂY INOX</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                            <!-- <div class="product-persent">-10%</div> -->
+                            <div class="out-of-stock">HẾT HÀNG</div>
+                        </div>
+
+
+                        <div class="content-product">
+                            <img src="./assets/image/Product/DONGHODOI/4.jpg" class="product-img" alt="">
+                            <div class="product-classify">ĐỒNG HỒ ĐÔI</div>
+                            <div class="product-name">ĐỒNG HỒ ĐÔI CITIZEN BD0030-00A – ER0190-00A PIN DÂY DA</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                            <!-- <div class="product-persent">-10%</div> -->
+                        </div>
+
+
+
+                        <div class="content-product">
+                            <img src="./assets/image/Product/DONGHODOI/5.jpg" class="product-img" alt="">
+                            <div class="product-classify">ĐỒNG HỒ ĐÔI</div>
+                            <div class="product-name">ĐỒNG HỒ ĐÔI CASIO MTP-E312D-7BVDF – LTP-E312D-4BVDF PIN DÂY INOX</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                            <div class="product-persent">-10%</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Product accessories -->
+            <section class="content" id="accessories">
+                <div class="grid wide">
+                    <div class="content-title">PHỤ KIỆN</div>
+                    <div class="owl-carousel general owl-theme">
+                        <div class="content-product">
+                            <img src="./assets/image/Product/PHUKIEN/1.jpg" class="product-img" alt="">
+                            <div class="product-classify">PHỤ KIỆN</div>
+                            <div class="product-name">DỊCH VỤ KHẮC LAZE LOGO LÊN ĐỒNG HỒ CHẤT LƯỢNG CAO</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                        </div>
+
+                        <div class="content-product">
+                            <img src="./assets/image/Product/PHUKIEN/2.jpg" class="product-img" alt="">
+                            <div class="product-classify">PHỤ KIỆN</div>
+                            <div class="product-name">DỊCH VỤ KHẮC LAZE LOGO LÊN ĐỒNG HỒ CHẤT LƯỢNG CAO</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                        </div>
+
+
+                        <div class="content-product">
+                            <img src="./assets/image/Product/PHUKIEN/3.jpg" class="product-img" alt="">
+                            <div class="product-classify">PHỤ KIỆN</div>
+                            <div class="product-name">DỊCH VỤ KHẮC LAZE LOGO LÊN ĐỒNG HỒ CHẤT LƯỢNG CAO</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                        </div>
+
+
+                        <div class="content-product">
+                            <img src="./assets/image/Product/PHUKIEN/4.jpg" class="product-img" alt="">
+                            <div class="product-classify">PHỤ KIỆN</div>
+                            <div class="product-name">DỊCH VỤ KHẮC LAZE LOGO LÊN ĐỒNG HỒ CHẤT LƯỢNG CAO</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                        </div>
+
+
+
+                        <div class="content-product">
+                            <img src="./assets/image/Product/PHUKIEN/5.jpg" class="product-img" alt="">
+                            <div class="product-classify">PHỤ KIỆN</div>
+                            <div class="product-name">DỊCH VỤ KHẮC LAZE LOGO LÊN ĐỒNG HỒ CHẤT LƯỢNG CAO</div>
+                            <div class="product-price">
+                                <div class="price-present">5,053,950 ₫</div>
+                                <div class="price-sale">3,195,300 ₫</div>
+                            </div>
+                            <button class="product-bag-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Information -->
+            <section class="information" id="information">
+                <div class="grid wide">
+                    <div class="content-title">THÔNG TIN HỮU ÍCH</div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item" data-aos="flip-up" data-aos-delay="100">
+                            <div class="item-img">
+                                <img src="./assets/image/Slide/slide1.jpg" alt="">
+                            </div>
+                            <div class="information-text">
+                                <div class="information-text__heading">Lorem ipsum dolor sit.</div>
+                                <p>You Learn Something Everyday If You Pay Attention.</p>
+                            </div>
+                        </div>
+
+                        <div class="item" data-aos="flip-up" data-aos-delay="300">
+                            <div class="item-img">
+                                <img src="./assets/image/Slide/slide2.jpg" alt="">
+                            </div>
+                            <div class="information-text">
+                                <div class="information-text__heading">Lorem ipsum dolor sit.</div>
+                                <p>You Learn Something Everyday If You Pay Attention.</p>
+                            </div>
+                        </div>
+
+                        <div class="item" data-aos="flip-up" data-aos-delay="500">
+                            <div class="item-img">
+                                <img src="./assets/image/Slide/slide3.jpg" alt="">
+                            </div>
+                            <div class="information-text">
+                                <div class="information-text__heading">Lorem ipsum dolor sit.</div>
+                                <p>You Learn Something Everyday If You Pay Attention.</p>
+                            </div>
+                        </div>
+
+                        <div class="item" data-aos="flip-up" data-aos-delay="300">
+                            <div class="item-img">
+                                <img src="./assets/image/Slide/slide1.jpg" alt="">
+                            </div>
+                            <div class="information-text">
+                                <div class="information-text__heading">Lorem ipsum dolor sit.</div>
+                                <p>You Learn Something Everyday If You Pay Attention.</p>
+                            </div>
+                        </div>
+
+                        <div class="item" data-aos="flip-up" data-aos-delay="100">
+                            <div class="item-img">
+                                <img src="./assets/image/Slide/slide2.jpg" alt="">
+                            </div>
+                            <div class="information-text">
+                                <div class="information-text__heading">Lorem ipsum dolor sit.</div>
+                                <p>You Learn Something Everyday If You Pay Attention.</p>
+                            </div>
+                        </div>
+
+                        <div class="item" data-aos="flip-up" data-aos-delay="500">
+                            <div class="item-img">
+                                <img src="./assets/image/Slide/slide3.jpg" alt="">
+                            </div>
+                            <div class="information-text">
+                                <div class="information-text__heading">Lorem ipsum dolor sit.</div>
+                                <p>You Learn Something Everyday If You Pay Attention.</p>
+                            </div>
+                        </div>
+
+                        <div class="item" data-aos="flip-up" data-aos-delay="300">
+                            <div class="item-img">
+                                <img src="./assets/image/Slide/slide1.jpg" alt="">
+                            </div>
+                            <div class="information-text">
+                                <div class="information-text__heading">Lorem ipsum dolor sit.</div>
+                                <p>You Learn Something Everyday If You Pay Attention.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+        <!-- End Main -->
+
+        <!-- Begin Footer -->
+        <footer class="footer" id="footer">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-4 m-12 c-12">
+                        <div class="footer-content">
+                            <div class="footer-heading">ĐIỀU HƯỚNG</div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-12 c-12">
+                        <div class="footer-content">
+                            <div class="footer-logo">H2SHOP</div>
+                            <div class="footer-description">Là một website đồng hồ chất lượng cao online bán hàng trực tuyến chúng tôi phục vụ nhu cầu mua sắm trực tuyến</div>
+
+                            <form class="form-control" action="">
+                                <input type="text" class="form-control__text" name="" placeholder="Comment">
+                                <input type="submit" class="form-control__submit" value="-->">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-12 c-12">
+                        <div class="footer-content">
+                            <div class="footer-heading">THÔNG TIN LIÊN HỆ</div>
+                            <div class="footer-address">ĐH DUY TÂN ĐÀ NẴNG</div>
+
+                            <div href="" class="footer-info">
+                                <span>
+                                            <i class="fas fa-mobile"></i>
+                                            123 456 789
+                                        </span>
+
+                                <span>
+                                            <i class="fas fa-envelope"></i>
+                                             abcdef@gmail.com
+                                        </span>
+
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i> Facebook
+                                </a>
+
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i> InStagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer-end">Create by G4-TEAM| 2021 All Right reserved.</div>
+
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+    </div>
+
+
+
+</body>
+<script src="./assets/javascripts/main.js "></script>
+<script src="./assets/javascripts/jqurery.js"></script>
+
+</html>
